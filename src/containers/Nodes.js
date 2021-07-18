@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
+import Blocks from "./Blocks";
 import * as actions from "../actions/nodes";
 import Node from "../components/Node";
 import { Typography, Box } from "@material-ui/core";
@@ -39,7 +40,13 @@ export class Nodes extends React.Component {
             key={node.url}
             expanded={node.url === this.state.expandedNodeURL}
             toggleNodeExpanded={this.toggleNodeExpanded}
-          />
+          >
+            {node.url === this.state.expandedNodeURL &&
+              <Blocks
+                expandedNodeURL={this.state.expandedNodeURL}
+              />
+            }
+          </Node>
         ))}
       </Box>
     );

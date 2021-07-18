@@ -12,7 +12,7 @@ import {
 import colors from "../constants/colors";
 import Status from "./Status";
 
-const Node = ({ node, expanded, toggleNodeExpanded }) => {
+const Node = ({ node, expanded, toggleNodeExpanded, children }) => {
   const classes = useStyles();
   return (
     <Accordion
@@ -26,7 +26,6 @@ const Node = ({ node, expanded, toggleNodeExpanded }) => {
         classes={{
           expandIcon: classes.icon,
           content: classes.content,
-          expanded: classes.expanded,
         }}
         expandIcon={<ExpandMoreIcon />}
       >
@@ -45,9 +44,7 @@ const Node = ({ node, expanded, toggleNodeExpanded }) => {
           <Status loading={node.loading} online={node.online} />
         </Box>
       </AccordionSummary>
-      <AccordionDetails>
-        <Typography>Blocks go here</Typography>
-      </AccordionDetails>
+      <AccordionDetails>{children}</AccordionDetails>
     </Accordion>
   );
 };
@@ -76,14 +73,6 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     margin: "10px 0 !important", // Avoid change of sizing on expanded
-  },
-  expanded: {
-    "& $icon": {
-      paddingLeft: 0,
-      paddingRight: 12,
-      top: -10,
-      marginRight: 0,
-    },
   },
   heading: {
     fontSize: theme.typography.pxToRem(17),
