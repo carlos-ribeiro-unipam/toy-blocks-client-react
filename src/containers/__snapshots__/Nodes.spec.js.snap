@@ -43,30 +43,30 @@ exports[`<Nodes /> should match snapshot 1`] = `
         className="MuiAccordionSummary-content makeStyles-content-6"
       >
         <div
-          className="MuiBox-root MuiBox-root-10 makeStyles-summaryContent-4"
+          className="MuiBox-root MuiBox-root-9 makeStyles-summaryContent-4"
         >
           <div
-            className="MuiBox-root MuiBox-root-11"
+            className="MuiBox-root MuiBox-root-10"
           >
             <h5
-              className="MuiTypography-root makeStyles-heading-8 MuiTypography-h5"
+              className="MuiTypography-root makeStyles-heading-7 MuiTypography-h5"
             >
               Node 1
             </h5>
             <h6
-              className="MuiTypography-root makeStyles-secondaryHeading-9 MuiTypography-subtitle1"
+              className="MuiTypography-root makeStyles-secondaryHeading-8 MuiTypography-subtitle1"
             >
               https://thawing-springs-53971.herokuapp.com
             </h6>
           </div>
           <div
-            className="MuiBox-root MuiBox-root-16"
+            className="MuiBox-root MuiBox-root-15"
           >
             <span
-              className="makeStyles-dot-12 makeStyles-dot-14"
+              className="makeStyles-dot-11 makeStyles-dot-13"
             />
             <span
-              className="makeStyles-text-13 makeStyles-text-15"
+              className="makeStyles-text-12 makeStyles-text-14"
             >
               OFFLINE
             </span>
@@ -126,13 +126,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiAccordionDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>
@@ -164,30 +158,30 @@ exports[`<Nodes /> should match snapshot 1`] = `
         className="MuiAccordionSummary-content makeStyles-content-6"
       >
         <div
-          className="MuiBox-root MuiBox-root-17 makeStyles-summaryContent-4"
+          className="MuiBox-root MuiBox-root-16 makeStyles-summaryContent-4"
         >
           <div
-            className="MuiBox-root MuiBox-root-18"
+            className="MuiBox-root MuiBox-root-17"
           >
             <h5
-              className="MuiTypography-root makeStyles-heading-8 MuiTypography-h5"
+              className="MuiTypography-root makeStyles-heading-7 MuiTypography-h5"
             >
               Node 2
             </h5>
             <h6
-              className="MuiTypography-root makeStyles-secondaryHeading-9 MuiTypography-subtitle1"
+              className="MuiTypography-root makeStyles-secondaryHeading-8 MuiTypography-subtitle1"
             >
               https://secret-lowlands-62331.herokuapp.com
             </h6>
           </div>
           <div
-            className="MuiBox-root MuiBox-root-21"
+            className="MuiBox-root MuiBox-root-20"
           >
             <span
-              className="makeStyles-dot-12 makeStyles-dot-19"
+              className="makeStyles-dot-11 makeStyles-dot-18"
             />
             <span
-              className="makeStyles-text-13 makeStyles-text-20"
+              className="makeStyles-text-12 makeStyles-text-19"
             >
               OFFLINE
             </span>
@@ -247,13 +241,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiAccordionDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import mockFetch from "cross-fetch";
 
 jest.mock("cross-fetch");
 
-describe("Actions", () => {
+describe("Actions::Nodes", () => {
   const dispatch = jest.fn();
 
   afterAll(() => {
