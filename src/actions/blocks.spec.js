@@ -17,13 +17,13 @@ describe("Actions::Blocks", () => {
   const res = {
     data: [
       {
-        id: 1,
+        id: "1",
         attributes: {
           data: "Text for blocks actions test",
         },
       },
       {
-        id: 2,
+        id: "2",
         attributes: {
           data: "Text for blocks actions test",
         },
